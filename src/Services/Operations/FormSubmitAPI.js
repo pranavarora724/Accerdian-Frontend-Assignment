@@ -6,7 +6,7 @@ export async function formSubmitAPI(firstName , lastName , email , phoneNumber ,
 {
     const toastID = toast.loading('Loading...');
     const BASE_URL = process.env.REACT_APP_BACKEND_BASE_URL;
-    const API_URL = BASE_URL + "/form/saveFormData"
+    const API_URL = BASE_URL + "form/saveFormData"
     
     try {
         

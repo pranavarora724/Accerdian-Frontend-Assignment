@@ -240,7 +240,7 @@ function ReferForm(props) {
                         {/* Displying error */}
                         {
                             errors.referralPhoneNumber && (
-                                <p className="text-pink-300 text-sm">{errors.phoneNumber.message}</p>
+                                <p className="text-pink-300 text-sm">{errors.referralPhoneNumber.message}</p>
                             )
                         }
                         
